@@ -13,6 +13,18 @@ var quotes = [
   "You’re not stuck — you’re just learning something new."
 ];
 
-for(i = 0;i<=quotes.length;i++){
-    console.log(quotes[i]);
+// 
+let currentIndex = 0;
+
+var quote = document.getElementById("quote")
+var button = documentj.getElementById("btn")
+
+function showNextQuote() {
+  currentIndex = (currentIndex + 1) % quotes.length;
+  quote.textContent = quotes[currentIndex];
 }
+
+quote.textContent = quotes[currentIndex];
+button.addEventListener("click", showNextQuote);
+
+

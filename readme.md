@@ -68,3 +68,8 @@ Desk view
 2. Navbar is simple and currently no hamburger menu.
 3. Added Github Star icon using cdn. Now we can use icons using web fonts.
 
+--------------- Date 26th June - Abhas
+
+1. Added Hero section code to the project. Hero section is responsive and working on mobile, tablet and desktop
+2. Added card and the working button.
+
